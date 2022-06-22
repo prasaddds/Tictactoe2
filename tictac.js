@@ -61,9 +61,6 @@ reset.addEventListener("click", () => {
     player = "X";
     document.getElementById("chance").innerText = player;
 });
-
-// document.getElementsByClassName('box')[0].innerText!=""
-// hw: implement draw
 if (((document.getElementById('result').innerHTML) == "running")
     &&
     document.getElementsByClassName('box')[0].innerHTML != ""
