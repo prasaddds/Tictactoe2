@@ -64,3 +64,27 @@ reset.addEventListener("click", () => {
 
 // document.getElementsByClassName('box')[0].innerText!=""
 // hw: implement draw
+if (((document.getElementById('result').innerHTML) == "running")
+    &&
+    document.getElementsByClassName('box')[0].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[1].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[2].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[3].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[4].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[5].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[6].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[7].innerHTML != ""
+    &&
+    document.getElementsByClassName('box')[8].innerHTML != ""
+
+) {
+    document.getElementById('result').innerHTML = "Draw"
+    console.log("Executing")
+}
