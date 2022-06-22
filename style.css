@@ -46,3 +46,19 @@
   margin-top: 30px;
 }
 
+.imgContainer img {
+  width: 0;
+  transition: width 2s ease-in-out;
+}
+.gameInfo {
+  margin-left: 20px;
+}
+
+#reset {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: var(--dark);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
